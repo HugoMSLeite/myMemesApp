@@ -1,42 +1,14 @@
-# React Native Developer Test
+#MyMemesApp
 
-Parabéns por chegar até esta fase do processo seletivo para Desenvolvedor React Native.
+Aplicativo desenvolvido para teste da Ploomes.
+Este aplicativo ainda está no ínicio. Tem muito a ser evoluido e explorado.
+Uma palicativo simples que trás as imagens de memes da API do https://imgflip.com/, então é só digitar os textos que deseja aparecer no meme, e clicar para gerar o meme com o texto que o usuário digitou.
+ 
+ Esse primeira versão tem apenas o gerador de meme, a função de salvar e compartilhar está para ser desenvolvido.
 
-Aqui na Ploomes valorizamos muito uma qualidade: autonomia. Isso quer dizer que, uma vez que um problema é apresentado para um dos nossos colaboradores, cabe a este decidir qual a melhor solução. 
+ #Como rodar
 
-Por isso,em nosso desafio, nos vamos setar alguns critérios mínimos para a aplicação e deixar você tomar as decisões mais profundas sobre a aplicação.
+ Basta rodar o comando $ git clone https://github.com/HugoMSLeite/learning-reactjs , para clonar o repositório. Acessar a pasta clonada. E instalar as dependências com o comando npm install.
+ Após instalar as dependências, rodar com o comando npm run web.
 
-Remember to do your best and have fun!
-# Critérios mínimos:
-
-- Consumir dados de alguma [API](https://github.com/Ploomes/JrReactNativeSkillTest/blob/master/README.md#sugestões-de-apis);
-- Utilizar [Redux](https://redux.js.org/basics/usage-with-react/) para gerenciamento de estado;
-- Possibilidade de utilização Online/Offline com algum tipo de persistência de dados Offline;
-- Utilizar de ao menos um componente reutilizável(genérico);
-- [Clean Code](https://becode.com.br/clean-code/)
-# Diferenciais:
-
-- OOP;
-- SQLite;
-- TypeScript;
-- Layout FODA!;
-- [Expo](https://docs.expo.io/versions/latest/);
-- TDD;
-- Comentários
-
-# Entrega
-
-Para a entrega, clonar esse repositório e indicar QUAL O PROBLEMA QUE A SUA APLICAÇÃO SE PROPÕE A RESOLVER;
-Incluir também instruções de execução, limitações, bugs conhecidos e quais seriam os próximos passos para a evolução do sistema.
-
-Enviar por email para tiago.provenzano@ploomes.com o link para o repositõrio com a resolução. 
-
-O prazo de entrega é de 5 dias após o envio do email de convite. Você pode enviar sua resolução a partir do primeiro dia, contudo, os critérios de avaliação serão os mesmos independentemente de tempo de resolução. 
-
-# Sugestões de APIs:
-
-As APIs listadas aqui são apenas sugestões, caso queira utilizar de outro serviço, fique a vontade, mas tenha em mente que teremos que executar seu código aqui e sermos capazes de ver essa conexão:
-- [GetAsteroids](https://rapidapi.com/dimas/api/NasaAPI?endpoint=apiendpoint_b4e69440-f966-11e7-809f-87f99bda0814getAsteroids)
-- [PokeAPI](https://pokeapi.co)
-- [MarvelCommicsAPI](https://rapidapi.com/stefan.skliarov/api/Marvel?endpoint=apiendpoint_011a2d90-f967-11e7-847f-a7b04b853fafgetComicsBySeries)
-- [OpenWeatherMap](https://openweathermap.org/price)
+ O aplicativo foi feito com o https://expo.io/ . A versão web não carrega direito. Para testar corretamente o aplicativo tem que baixar o expo client (https://expo.io/tools#client) e ler o QRCode gerado.
